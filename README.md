@@ -4,7 +4,7 @@ Após iniciar a aplicação, comecei a tentar decodificar a variavel code do con
 
 Após isso, consegui o pyc do código e achei 1593 e , logo, deduzi que o número seria 3 (necessário para dar 1596).
 
-Código para realizar o decode
+Código para realizar o decode em python
 
 import dis
 
