@@ -31,7 +31,7 @@ dis.dis(code_object)
 
 ![Vídeo]([https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUyMoq.mp4)
 
-
+https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUyMoq.mp4
 //////////////////////////////////////////////////////////////////////
 
 
