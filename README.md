@@ -29,7 +29,11 @@ code_object = marshal.loads(bytecode)
 dis.dis(code_object)
 
 
-!(mWYpBO5DjwHUyMoq.mp4)[mWYpBO5DjwHUyMoq.mp4]
+<video width="320" height="240" controls>
+  <source src="mWYpBO5DjwHUyMoq.mp4" type="video/mp4">
+  Seu navegador não suporta a tag de vídeo.
+</video>
+
 
 
 //////////////////////////////////////////////////////////////////////
