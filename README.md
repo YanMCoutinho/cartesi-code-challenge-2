@@ -42,11 +42,9 @@ dis.dis(code_object)</code>
 
 <br>
 <br>
-<br>
+
 # O Challenge
-<br>
-<br>
-<br>
+
 <br>
 
 # Challenge: Cartesi Rollups Code Challenge
