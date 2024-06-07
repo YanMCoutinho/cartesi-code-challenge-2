@@ -5,8 +5,11 @@ Após iniciar a aplicação, comecei a tentar decodificar a variavel code do con
 Após isso, consegui o pyc do código e achei 1593 e , logo, deduzi que o número seria 3 (necessário para dar 1596).
 
 Código para realizar o decode
+
 import dis
+
 import marshal
+
 bytecode = (
     b'\xe3\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00'
     b'\x00\x02\x00\x00\x00C\x00\x00\x00sR\x00\x00\x00d\x01}\x02d\x02}\x03'
@@ -20,8 +23,11 @@ bytecode = (
     b'claim\x05\x00\x00\x00s\x16\x00\x00\x00\x04\x01\x04\x01\x08\x03\x08'
     b'\x01\n\x01\x08\x02\x08\xfc\x10\x06\x04\x01\x08\x02\x04\x01'
 )
+
 code_object = marshal.loads(bytecode)
+
 dis.dis(code_object)
+
 
 
 //////////////////////////////////////////////////////////////////////
