@@ -1,8 +1,17 @@
 # Resolução do desafio
 
 1) Ao abrir a aplicação, foi lido a hint 1. Após isso, foi verificado o nome dos membros da Cartesi no Discord (Cartesians). Com essa dica, pesquisamos mais sobre e vimos que René Descartes iniciou o movimento do cartesianismo. Sua data de nascimento é 1596.
-2) Começamos a decodificar a váriavel code que está no dapp.py e foi possível encontrar o número 1593. Portanto, o número de Guess é 3.
-3) Por fim, enviamos isso pelo cartesi send.
+2) Começamos a decodificar a váriavel code que está no dapp.py e foi possível encontrar o número 1593. Portanto, o número de Guess é 3, já que 1596 - 3 = 1593.
+3) Por fim, enviamos isso pelo cartesi send e recebemos a resposta mostrada no vídeo.
+
+```
+cartesi send generic \
+    --dapp=0xab7528bb862fb57e8a2bcd567a2e929a0be56a5e \
+    --chain-id=31337 \
+    --rpc-url=http://127.0.0.1:8545 \
+    --mnemonic-passphrase='test test test test test test test test test test test junk' \
+    --input='{"guess": 3, "birth_year_minus_the_guess": 1593}'
+```
 
 Vídeo de explicação:
 https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUyMoq.mp4
