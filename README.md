@@ -2,7 +2,26 @@
 
 Após iniciar a aplicação, comecei a tentar decodificar a variavel code do contrato. Além disso, vi que o nome dos membros da Cartesi é Cartesians. Ao pesquisar no google vi o nome do René Descartes em relação ao movimento do cartesianismo. Sua data de nascimento é 1596. 
 
-Após isso, consegui o pyc do código e achei 1593 e , logo, deduzi que o número seria 3 (necessário para dar 1596)
+Após isso, consegui o pyc do código e achei 1593 e , logo, deduzi que o número seria 3 (necessário para dar 1596).
+
+Código para realizar o decode
+import dis
+import marshal
+bytecode = (
+    b'\xe3\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00'
+    b'\x00\x02\x00\x00\x00C\x00\x00\x00sR\x00\x00\x00d\x01}\x02d\x02}\x03'
+    b'|\x02|\x03k\x03r\x19|\x02|\x03k\x04r\x11|\x02|\x038\x00}\x02n\x04'
+    b'|\x03|\x028\x00}\x03|\x02|\x03k\x03s\x08|\x02|\x00k\x02r#|\x01d\x03'
+    b'k\x02r#d\x04S\x00t\x00d\x05\x83\x01\x01\x00d\x06S\x00)\x07N\xe9\xff'
+    b'\xff\x00\x00i\xe9\x01\x00\x00\xe99\x06\x00\x00T\xfa?Error calculating'
+    b' GCD of a = 65535 and b = (2**16 >> 7) - 0x17.F)\x01\xda\x05print)'
+    b'\x04\xda\x05guess\xda\x1abirth_year_minus_the_guess\xda\x01a\xda\x01b'
+    b'\xa9\x00r\t\x00\x00\x00\xfa\x1f<ipython-input-27-d329bfeabe88>\xda\x05'
+    b'claim\x05\x00\x00\x00s\x16\x00\x00\x00\x04\x01\x04\x01\x08\x03\x08'
+    b'\x01\n\x01\x08\x02\x08\xfc\x10\x06\x04\x01\x08\x02\x04\x01'
+)
+code_object = marshal.loads(bytecode)
+dis.dis(code_object)
 
 
 //////////////////////////////////////////////////////////////////////
