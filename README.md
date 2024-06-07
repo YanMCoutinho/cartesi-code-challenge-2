@@ -28,7 +28,9 @@ code_object = marshal.loads(bytecode)
 
 dis.dis(code_object)
 
-!(Vídeo mostrando o processo)[mWYpBO5DjwHUyMoq.mp4]
+
+!(mWYpBO5DjwHUyMoq.mp4)[mWYpBO5DjwHUyMoq.mp4]
+
 
 //////////////////////////////////////////////////////////////////////
 
