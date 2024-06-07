@@ -29,7 +29,7 @@ code_object = marshal.loads(bytecode)
 dis.dis(code_object)
 
 
-![https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUyMoq.mp4](Vídeo)
+![Vídeo]([https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUyMoq.mp4)
 
 
 //////////////////////////////////////////////////////////////////////
