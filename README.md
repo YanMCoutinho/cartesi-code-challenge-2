@@ -9,7 +9,8 @@ https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUy
 
 ## Código para realizar o decode em python
 
-<code>import dis
+```
+import dis
 import marshal
 bytecode = (
     b'\xe3\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00'
@@ -26,6 +27,7 @@ bytecode = (
 )
 code_object = marshal.loads(bytecode)
 dis.dis(code_object)</code>
+```
 
 ![success](https://github.com/YanMCoutinho/cartesi-code-challenge-2/assets/69089226/264bce2c-8f8b-49a7-9a94-97126850102e)
 
