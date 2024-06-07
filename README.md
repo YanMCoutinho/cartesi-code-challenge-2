@@ -1,6 +1,6 @@
 # Resolução do desafio
 
-Após iniciar a aplicação, comecei a tentar decodificar a variavel code do contrato. Além disso, vi que o nome dos membros da Cartesi é Cartesians. Ao pesquisar no google vi o nome do René Descartes em relação ao movimento do cartesianismo. Sua data de nascimento é 1596. 
+Após iniciar a aplicação, comecei a tentar decodificar a variavel code do contrato. Além disso, vi que o nome dos membros da Cartesi é Cartesians (seguindo a hint 1). Ao pesquisar no google vi o nome do René Descartes em relação ao movimento do cartesianismo. Sua data de nascimento é 1596. 
 
 Após isso, consegui o pyc do código e achei 1593 e , logo, deduzi que o número seria 3 (necessário para dar 1596).
 
