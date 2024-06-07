@@ -29,11 +29,7 @@ code_object = marshal.loads(bytecode)
 dis.dis(code_object)
 
 
-<video width="320" height="240" controls>
-  <source src="mWYpBO5DjwHUyMoq.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
-
+![https://github.com/YanMCoutinho/cartesi-code-challenge-2/blob/main/mWYpBO5DjwHUyMoq.mp4](Vídeo)
 
 
 //////////////////////////////////////////////////////////////////////
